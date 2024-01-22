@@ -1,0 +1,442 @@
+*{
+    box-sizing: border-box;
+    /* Khi box-sizing được đặt thành border-box, thì kích thước của phần tử bao gồm cả padding và border, và không bị thay đổi khi thay đổi giá trị của padding và border */
+    font-family: sans-serif ;
+    font-size: 1vw;
+}
+.boxcenter{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 99%;
+    
+    /* 100% của thằng cha */
+}
+
+.mb{
+    margin-bottom: 20px;
+    
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mr{
+    margin-left: 2%;
+}
+
+.demo{
+    background-color: rgb(155, 158, 159) ;
+    min-height: 100px;
+    /* min-height: được sử dụng để đặt chiều cao tối thiểu của một phần tử */
+
+}
+
+.header{
+    background-color: aquamarine;
+    border:  1px #009900 solid;
+    font-size: 1vw;
+    /* vw: để chữ co dãn theo trình duyệt */
+    color: blue;
+    border-radius: 5px;
+}
+
+.header h1{
+    margin:  20px;
+    font-size: 1.5vw;
+}
+
+.menu{
+    background-color: black;
+    color: #CCC;
+    border-radius: 5px;
+}
+
+.boxRight{
+    float: left;
+    width: 24%;
+}
+.boxLeft{
+    float: left;
+    width: 74%;
+
+}
+.cart table {
+    margin: 0 auto; 
+}
+
+
+.cart table td{
+    width: 100px;
+    padding: 10px; 
+}
+
+.cart table th,td{
+    border: 1px solid #000;
+}
+
+.footer{
+    background-color: aquamarine;
+    border:  1px #009900 solid;
+    font-size: 0.8vw;
+    /* vw: để chữ co dãn theo trình duyệt */
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.boxtitle{
+    color: #333;
+    padding: 10px;
+    width: 100%;
+    background-color: #EEE;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #CCC solid;
+    
+
+
+}
+
+
+.boxcontent{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    min-height: 100%;
+    /* padding: là khoảng cách giữa viền với nội dung */
+    padding: 7px;
+    width: 100%;
+
+}
+
+.boxcontent2{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    background-color: #EEE;
+
+}
+
+.boxfooter{
+    
+    padding: 10px;
+    background-color: #EEE;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    width: 99%;
+}
+.searchbox .h1 input{
+    width: 65%;
+    float: left;
+    border-radius:7px;
+    padding: 2px;
+    
+}
+.searchbox .h1 input:hover{
+    border: 1px solid red;
+}
+
+
+.searchbox .h2 input{
+    width: 30%;
+    border-radius:7px;
+    margin-left: 10px;
+    padding: 2px;
+}
+.searchbox .h2 input:hover{
+    background-color: #000;
+    color: #fff;
+}
+.searchbox{
+    width: 100%;
+}
+
+
+
+
+
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    height:300px ;
+}
+
+.boxproduct{
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 2px #EEE solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin: 5px;
+}
+.boxproduct a{
+    text-decoration: none;
+    color: blue;
+}
+.boxproduct a:hover{
+    color: #000;
+    font-size: 16px;
+
+}
+
+
+.boxproduct .img{
+    min-height: 200px; 
+    text-align: center;
+    margin-top: 20px;
+
+}
+.boxproduct .sp{
+    
+    text-align: center;
+}
+.img img{
+    height: 200px;
+    width: 200px;
+}
+
+.menu ul{
+    padding:0 15px;
+
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 0px 15px;
+}
+
+.menu ul li a{
+    color: #CCC;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.menu ul li a:hover{
+    color: white;
+    font-size: 1.1vw;
+}
+/* boxtaikhoan */
+/* boxtaikhoan */
+.formtaikhoan{
+    line-height: 150%;
+    height: 300px;
+}
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="password"],
+.formtaikhoan input[type="email"],
+.formcontent input[type="number"],
+.formcontent input[type="email"],
+.formcontent input[type="password"],
+.formcontent input[type="text"]{
+    width: 100%;
+    border: 2px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="checkbox"]{
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="submit"],
+.formtaikhoan input[type="email"],
+.formtaikhoan input[type="reset"],
+.formcontent input[type="submit"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #ccc solid;
+}
+.formtaikhoan input[type="submit"]:hover,
+.formtaikhoan input[type="email"]:hover,
+.formtaikhoan input[type="reset"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reset"]:hover,
+.formcontent input[type="button"]:hover{
+    background-color: #ccc;
+}
+.formtaikhoan li a{
+    color: teal;
+    text-decoration: none;
+}
+.formtaikhoan li a:hover{
+    color: #060;
+    text-decoration: none;
+}
+/* menudoc */
+.menudoc ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: #FFF;
+    border-bottom: 1px #ccc solid;
+}
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+}
+.menudoc ul li:hover{
+    background-color: #CCC;
+}
+.seachbox input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #FFF;
+    border: 1px #CCC solid;
+    border-radius: 5px;
+}
+.top10 img{
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px #CCC solid;
+}
+.top10 a{
+    color: #666;
+    text-decoration: none;
+}
+.top10 a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+/* admin */
+.headerAdmin{
+    background-color: #EEE;
+    border:  1px #CCC solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 10px 20px;
+   
+}
+.headerAdmin h1{
+    font-size: 2vw;
+}
+
+.formcontent{
+    padding: 20px 0px;
+
+
+}
+
+
+.formdanhsach table{
+    width: 100%;
+    /* xóa vần trắng */
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/* 
+/* Khoảng cách từng th */
+.formdanhsach table th
+{
+    padding: 20px 0px;
+    background-color: #CCC;
+}   
+
+/* .formdanhsach table th:nth-child(2)
+{
+    width: 30%;
+    background-color: #CCC;
+}    
+.formdanhsach table th:nth-child(3)
+{
+    width: 40%;
+    background-color: #CCC;
+}    
+.formdanhsach table th:nth-child(4)
+{
+    width: 20%;
+    background-color: #CCC;
+}     */ */
+
+/* end th */
+
+
+.formdanhsach table td{
+    border: 1px solid black;
+    padding: 10px 20px;
+    
+
+}
+
+
+
+/* slideshow */
+/* Slideshow container */
+
+  
+ 
+/* endslideshow */
+
+
+
+.spct{
+    text-align: center;
+}
+
+.spct img{
+    width: 350px;
+    height: 360px;
+    
+}
+.thongbao{
+    color: red;
+}
+
+.binhluan table{
+    width: 90%;
+    margin-left: 5%;
+}
+.binhluan table td:nth-child(1){
+    width: 50%;
+}
+
+.binhluan table td:nth-child(2){
+    width: 20%;
+}
+
+.binhluan table td:nth-child(3){
+    width: 30%;
+}
+
+.btnaddtocart input{
+    border-radius: 7px;
+    padding: 5px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+.btnaddtocart input:hover{
+    background-color: #666;
+    color: #fff;
+}
+table tr th {
+    background-color: #b0b0b0;
+    width: 10%;
+    padding: 3%;
+}
+/* 
+
+css slide show */
+
+
+
+/* end slide */
+
+  
